@@ -14,17 +14,16 @@ body {
 header {
     padding: 60px;
     text-align: left;
-    background: darkblue;
+    background: lightblue;
     color: #fff;
 }
 
-.header-links{
-    background-color: darkblue;
-    color: #fff;
+nav .header-links {
     padding: 25px 30px;
     text-align: right;
     flex-direction: row;
     justify-content: space-between;
+    background: lightblue;
 }
 
 .about-box {
@@ -32,6 +31,15 @@ header {
     justify-content: right;
     padding: 20px 40px;
     background-color: salmon;
+}
+
+.work {
+    padding: 25px;
+    border: 30px;
+    border-color: lawngreen;
+    display: block; 
+    flex-shrink: inherit;
+
 }
 
 @media screen and (max-width: 992px){

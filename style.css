@@ -3,8 +3,12 @@
 }
 
 body {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0;
+    position: relative;
+    font-size: 22px;
+    background-color: white;
+    color: black;
 }
 
 header {
@@ -14,16 +18,30 @@ header {
     color: #fff;
 }
 
-nav ul{
-    display: flex;
-    background-color: white;
+.header-links{
+    background-color: darkblue;
+    color: #fff;
     padding: 25px 30px;
     text-align: right;
     flex-direction: row;
     justify-content: space-between;
 }
 
-aside {
-    flex-direction: column;
-    text-align: center;
+.about-box {
+    font-size: 22px;
+    justify-content: right;
+    padding: 20px 40px;
+    background-color: salmon;
+}
+
+@media screen and (max-width: 992px){
+    
+}
+
+@media screen and (max-width 768px) {
+    
+}
+
+@media  and (max-width 576 px) {
+    
 }

@@ -28,7 +28,7 @@ header {
     border-width: 2px;
 }
     
-.work #computer {
+.computer #computer {
     flex: 1 0 800px;
     padding: 25px;
     border-style: solid;
@@ -74,7 +74,7 @@ header {
 }
 
 #menu a {
-    tex-decoration: none;
+    text-decoration: none;
     color: black;
     display: block;
     background-color: lightgreen;

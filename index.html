@@ -13,13 +13,13 @@
         <header>
             <h1>Laury Ritter</h1>
             <img src="Img_0519.jpg" alt="Photo of Laury" width="125px" height="150px">
-            <nav>
-                <section>
-                    <p><a href="#about me">About Me</a></p>
-                    <p><a href="#work">Work</a></p>
-                    <p><a href="#contact">Contact Me</a></p>
-                </section>
-            </nav>
+            <div id="menu">
+                <ul>
+                    <li><a href="#about me">About Me</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
          </header>
         
         <br>
@@ -37,25 +37,38 @@
         
         <br>
 
-        <section>
-            <div class="work">
-                <!-- Added work section -->
-                <h3>Work</h3>
-                <figure>
-                    <div id="computer"><img src="computer code.jpg" alt="Photo of computer code" href="https://lauryritter.github.io/code-refractor/"></div>
-                    <div id="goat"><img class="goat" src="C:\Users\laury\Desktop\repositories\My-portfolio\goats.JPG" alt="Photo of goat"></div>
-                    <figcaption>Goat</figcaption>
-                    <img class="flowers" src="C:\Users\laury\Desktop\flowers.JPG" alt="Photo of flowers">
-                    <figcaption>Flowers</figcaption>
-                    <img class="ballons" src="C:\Users\laury\Desktop\balloons.JPG" alt="Photo of balloons">
-                    <figcaption>Hot Air Balloons</figcaption>
-                </figure>
+        <div class="work">
+            <!-- Added work section -->
+            <h3>Work</h3>
+            <figure>
+                <div id="computer"><img src="computer code.jpg" alt="Photo of computer code" href="https://lauryritter.github.io/code-refractor/" width= 1000px height= 500px ></div>
+            </figure> 
+        </div>   
+
+        <main>
+            <div class="projects">
+                <section class="pictures">
+                    <header>Goat</header>
+                    <img src="C:\Users\laury\Desktop\repositories\My-portfolio\goats.JPG" alt="Photo of goat" width=200px height=250px>
+                </section>
+                
+                <section class="pictures">
+                    <header>Flowers</header>
+                    <img src="C:\Users\laury\Desktop\flowers.JPG" alt="Photo of flowers"width=200px height=250px>
+                </section>
+                
+                <section class="pictures">
+                    <header>Balloons</header>        
+                    <img src="C:\Users\laury\Desktop\balloons.JPG" alt="Photo of balloons" widht=200px height=250px>
+                </section>
+                
+                
             </div>
-        </section>
+        </main>
         
         <br>
 
-        <section></section>
+        <footer>
             <p class="contact-me"></p>
                 <!-- Added contact me section -->
                 <h2>Contact Me</h2>
@@ -67,7 +80,7 @@
                 </ul>
             </p>
 
-        </section>
+        </footer>
 
     <body>
 </html>
